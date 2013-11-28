@@ -6,16 +6,12 @@ package zedcase1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.Enumeration;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
-import weka.classifiers.functions.SGD;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
-import weka.core.SelectedTag;
 
 /**
  *
@@ -46,8 +42,11 @@ public class ZEDCase1 {
         }
         System.out.println(bestF);*/
         ExecutorService executor = Executors.newFixedThreadPool(8);
-        Instances inst = loadData("/home/dawid/Pobrane/train000.arff");
-        Instances test = loadData("/home/dawid/Pobrane/test000.arff");
+        //Instances inst = loadData("/home/dawid/Pobrane/train000.arff");
+        //Instances test = loadData("/home/dawid/Pobrane/test000.arff");
+        Instances inst = loadData("D:\\projects\\zed-case\\zed\\Data\\train000.arff");
+        Instances test = loadData("D:\\projects\\zed-case\\zed\\Data\\test000.arff");
+        
         int attributes = inst.numAttributes();
         
         /*for (int i = 0; i < attributes-1; i++) {
