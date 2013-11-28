@@ -6,6 +6,7 @@ package zedcase1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import weka.classifiers.Classifier;
@@ -21,21 +22,33 @@ import static zedcase1.ZEDCase1.optimizeAttributes;
  */
 public class Worker implements Runnable {
     
-    private int arg;
+    private List<Integer> arg;
+    int currentTest;
     
-    public void setArg(int argVal) {
-        arg = argVal;
+    public void setArg(List<Integer> v) {
+        arg = v;
     }
+    
+    public void setCurrentTest(int t) {
+        currentTest = t;
+    }
+    
     
     @Override
     public void run() {
-        System.out.println(arg);
         Instances inst = loadData("/home/dawid/Pobrane/train000.arff");
         Instances test = loadData("/home/dawid/Pobrane/test000.arff");
-        inst.deleteAttributeAt(arg);
-        test.deleteAttributeAt(arg);
-        double res = optimizeAttributes(inst, test);
-        ZEDCase1.FScores[arg] = res;
+        
+        for(int i=0; i<arg.size(); i++) {
+            inst.deleteAttributeAt(i);
+            test.deleteAttributeAt(i);
+        }
+        inst.deleteAttributeAt(currentTest);
+        test.deleteAttributeAt(currentTest);
+        double[] res = optimizeAttributes(inst, test);
+        ZEDCase1.Precissions[currentTest] = res[0];
+        ZEDCase1.Recalls[currentTest] = res[1];
+        
     }
     
     
@@ -54,7 +67,7 @@ public class Worker implements Runnable {
         }
     }
     
-    public static double optimizeAttributes(Instances inst, Instances test) {
+    public static double[] optimizeAttributes(Instances inst, Instances test) {
         Classifier c = new RandomForest();
         try {
             c.buildClassifier(inst);
@@ -68,13 +81,12 @@ public class Worker implements Runnable {
             }
             double P = totalPrec/8;
             double R = totalRecall/8;
-            return 2.0*P*R/(P+R);
+            return new double[] { P, R };
         }
         catch(Exception e) {
             e.printStackTrace();
-            return 0;
+            return new double[0];
         }
             
     }
-    
 }
