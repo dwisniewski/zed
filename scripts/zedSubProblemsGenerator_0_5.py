@@ -84,46 +84,17 @@ data = getDataPartOfArff(sys.argv[1])
 
 traintest = divideTrainTest(clusterData(data), 0.75)
 
-#trainFile = open('train111.arff', 'w+')
-trainFileFrom = open('train111_FROM.arff', 'w+')
-trainFileReply = open('train111_REPLY.arff', 'w+')
-trainFileSent = open('train111_SENT.arff', 'w+')
-trainFileSubject = open('train111_SUBJECT.arff', 'w+')
-trainFileTo = open('train111_TO.arff', 'w+')
-trainFileType = open('train111_TYPE.arff', 'w+')
-trainFileWord = open('train111_WORD.arff', 'w+')
-
+trainFile = open('train111_0_5.arff', 'w+')
 for line in header:
-	trainFileFrom.write(line + "\n")
-	trainFileReply.write(line + "\n")
-	trainFileSent.write(line + "\n")
-	trainFileSubject.write(line + "\n")
-	trainFileTo.write(line + "\n")
-	trainFileType.write(line + "\n")
-	trainFileWord.write(line + "\n")
-
+	trainFile.write(line + "\n")
 for key in traintest:
-	for line in traintest[key]["train"]:# zeby zrobic ograniczenie zbioru testowego do 50% zmien na for line in traintest[key]["train"][:len(traintest[key]["train"])/2]
-	    if "A FROM" in line:
-             trainFileFrom.write(line + "\n")
-        if "A REPLY" in line:
-            trainFileReply.write(line + "\n")
-        if "A SENT" in line:
-            trainFileSent.write(line + "\n")
-        if "A SUBJECT" in line:
-            trainFileSubject.write(line + "\n")
-        if "A TO " in line:
-            trainFileTo.write(line + "\n")
-        if "A TYPE" in line:
-            trainFileType.write(line + "\n")
-        if "A WORD" in line:
-            trainFileWord.write(line + "\n")
-            #trainFile.write(line + "\n")
+	for line in traintest[key]["train"][:len(traintest[key]["train"])/2]: # zeby zrobic ograniczenie zbioru testowego do 50% zmien na for line in traintest[key]["train"][:len(traintest[key]["train"])/2]
+		trainFile.write(line + "\n")
 
 
-#testFile = open('test111.arff', 'w+')
-#for line in header:
-#	testFile.write(line + "\n")
-#for key in traintest:
-#	for line in traintest[key]["test"]:
-#		testFile.write(line + "\n")
+testFile = open('test111_0_5.arff', 'w+')
+for line in header:
+	testFile.write(line + "\n")
+for key in traintest:
+	for line in traintest[key]["test"][:len(traintest[key]["test"])/2]:
+		testFile.write(line + "\n")
