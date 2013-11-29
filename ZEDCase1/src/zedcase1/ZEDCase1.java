@@ -28,7 +28,7 @@ public class ZEDCase1 {
     //static int[] gainRatioRank0 = new int[] {21,22,87,17,53,73,96,100,65,6,7,1,2,90,81,93,89,16,119,121,61,83,55,62,71,97,104,108,45,116,26,23,98,70,57,49,51,66,35,80,56,28,59,18,95,50,39,105,102,10,68,88,117,64,74,120,85,101,34,94,118,103,52,67,3,4,31,9,8,54,15,79,91,29,76,109,86,63,111,42,60,113,72,78,43,112,36,106,38,114,30,77,40,5,58,107,84,110,48,99,44,115,122,37,24,27,92,33,125,75,47,41,124,46,19,14,20,69,82,123,25,13,11,32,12};
     public static double[] Precissions = new double[300];
     public static double[] Recalls = new double[300];
-    public static String path = "/home/dawid/git/zed/Data/output/";
+    public static String path = "D:\\projects\\zed-case\\zed\\Data\\output\\";
     
     
     public static void main(String[] args) {

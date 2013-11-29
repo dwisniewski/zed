@@ -36,8 +36,8 @@ public class Worker implements Runnable {
     
     @Override
     public void run() {
-        Instances inst = loadData("/home/dawid/Pobrane/train000.arff");
-        Instances test = loadData("/home/dawid/Pobrane/test000.arff");
+        Instances inst = loadData("D:\\projects\\zed-case\\zed\\Data\\train000.arff");
+        Instances test = loadData("D:\\projects\\zed-case\\zed\\Data\\test000.arff");
         
         for(int i=0; i<arg.size(); i++) {
             inst.deleteAttributeAt(i);
