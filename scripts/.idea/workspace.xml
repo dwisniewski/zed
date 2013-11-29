@@ -8,7 +8,7 @@
     <file path="/zedSubProblemsGeneratorGenerateTypedTestSet.py" changelist="8cccb687-9830-42fc-b41d-c9e8030c0ad3" time="1385739119156" ignored="false" />
     <file path="/zedSubProblemsGenerator_0_5.py" changelist="8cccb687-9830-42fc-b41d-c9e8030c0ad3" time="1385737176941" ignored="false" />
     <file path="/zedSubProblemsGeneratorGenerateTypedTrainSetModified.py" changelist="8cccb687-9830-42fc-b41d-c9e8030c0ad3" time="1385737628337" ignored="false" />
-    <file path="/zedSubProblemsGeneratorGenerateTypedTestAndTrainSet.py" changelist="8cccb687-9830-42fc-b41d-c9e8030c0ad3" time="1385738505294" ignored="false" />
+    <file path="/zedSubProblemsGeneratorGenerateTypedTestAndTrainSet.py" changelist="8cccb687-9830-42fc-b41d-c9e8030c0ad3" time="1385764256798" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +29,15 @@
         <entry file="file://$PROJECT_DIR$/zedSubProblemsGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="65" column="19" selection-start="1111" selection-end="1126" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zedSubProblemsGenerator_0_5.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="zedSubProblemsGenerator_0_5.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zedSubProblemsGenerator_0_5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="8" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.8064516">
+            <state line="92" column="0" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -51,20 +49,16 @@
         <entry file="file://$PROJECT_DIR$/zedSubProblemsGeneratorGenerateTypedTrainset.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="126" column="22" selection-start="3277" selection-end="3277" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zedSubProblemsGeneratorGenerateTypedTestAndTrainSet.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="zedSubProblemsGeneratorGenerateTypedTestAndTrainSet.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zedSubProblemsGeneratorGenerateTypedTestAndTrainSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="49" selection-start="4697" selection-end="4697" vertical-scroll-proportion="-19.04">
-              <folding>
-                <element signature="e#22#32#0" expanded="true" />
-              </folding>
+            <state line="58" column="35" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.7788104">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -230,23 +224,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30227274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3068182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -308,9 +302,37 @@
     <entry file="file://$PROJECT_DIR$/zedSubProblemsGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="19" selection-start="1111" selection-end="1126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zedSubProblemsGenerator_0_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="8" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zedSubProblemsGeneratorGenerateTypedTrainset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="22" selection-start="3277" selection-end="3277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zedSubProblemsGeneratorGenerateTypedTestAndTrainSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="49" selection-start="4697" selection-end="4697" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zedSubProblemsGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="19" selection-start="1111" selection-end="1126" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -324,6 +346,13 @@
     <entry file="file://$PROJECT_DIR$/zedSubProblemsGeneratorGenerateTypedTrainset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="126" column="22" selection-start="3277" selection-end="3277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zedSubProblemsGenerator_0_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -332,19 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zedSubProblemsGeneratorGenerateTypedTestAndTrainSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="49" selection-start="4697" selection-end="4697" vertical-scroll-proportion="-19.04">
-          <folding>
-            <element signature="e#22#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zedSubProblemsGenerator_0_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="8" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.8064516">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state line="58" column="35" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.7788104">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -41,7 +41,7 @@ def filterContent(type, typeMap, content):
     for line in content:
         if line[0] == '{':
             new_elements = list()
-            line = line[1:-2]
+            line = line[1:-1]
             old_elements = line.split(',')
             for element in old_elements:
                 #print typeMap
@@ -169,6 +169,14 @@ for line in header:
     testFileTo.write(line + "\n")
     testFileType.write(line + "\n")
     testFileWord.write(line + "\n")
+
+    trainFileFrom.write(line + "\n")
+    trainFileReply.write(line + "\n")
+    trainFileSent.write(line + "\n")
+    trainFileSubject.write(line + "\n")
+    trainFileTo.write(line + "\n")
+    trainFileType.write(line + "\n")
+    trainFileWord.write(line + "\n")
 
 print "creating test set"
 for key in traintest:
